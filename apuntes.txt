@@ -1,0 +1,30 @@
+el archivo inicial debe llamarse index.js o app.js que es el que va a lanzar el proyecto de node
+
+filesystem => das las operaciones de acceso al sistema de archivos están englobadas dentro del módulo "fs" (File System). Si queremos leer un archivo de texto que tenemos en local simplemte usaremos ese módulo para extraer el contenido del fichero, indicando su ruta y otra serie de parámetros que ahora describiremos
+
+throw => Lanza una excepcion definida por el usuario.
+
+npm init => Crea un archivo package.json que es una estructura de datos que nos permite gestionar nuestro proyecto de forma sencilla.
+npm init -y => creal el package.json con sus valores por defecto
+
+npm install => instala los paquetes que se encuentran en el package.json
+npm install nombrepaquete => instala el paquete
+npm install nombrepaquete@1.0.0 => instala el paquete con la version especificada 
+npm unistall nombrepaquete => elimina los paquetes que se encuentran en el package.json
+npm update => actualiza los paquetes que se encuentran en el package.json
+
+
+package.json => Este archivo es una estructura de datos que nos permite gestionar nuestro proyecto de forma sencilla.
+package-lock.json => Este archivo es una estructura de datos que nos permite gestionar nuestro proyecto de forma sencilla.
+
+versionamiento semántico => es una técnica de desarrollo que nos permite mantener una versión de nuestro código y evitar que se modifiquen los cambios que se hacen en el código.
+    Major: Cambio drástico en el software. No es compatible con código hecho en versiones anteriores.
+    Minor: Cambio que añade alguna característica nueva al software o modifica alguna ya existente, pero que sigue siendo compatible con código existente. También cuando marcamos algo como obsoleto.
+    Patch: Cuando arreglamos un bug siendo el cambio retrocompatible.
+    1.0.0
+
+process.argv => Nos permite acceder a los parámetros que nos pasan por la línea de comandos.
+
+paquete colors => nos permite pintar en la consola con colores
+
+yargs => nos permite crear una línea de comandos que nos permite pasar parámetros a nuestro proyecto
